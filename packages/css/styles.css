@@ -881,7 +881,10 @@ form textarea {
 .contact__container {
   row-gap: 3rem;
 }
-
+.contact__container {
+  margin: auto;
+  justify-content: center;
+}
 .contact__information {
   display: flex;
   margin-bottom: var(--mb-2);
@@ -1131,6 +1134,10 @@ form textarea {
   .github-stats {
     display: none;
   }
+  .footer_pic>img{
+    height: 700px; 
+    width: 50px;
+  }
 }
 
 /* for medium devices */
@@ -1146,7 +1153,10 @@ form textarea {
   .home__subtitle {
     font-size: 45px;
   }
+  .footer_pic{
 
+    width: 200px;
+  }
   .home__social-icon {
     display: none;
   }
